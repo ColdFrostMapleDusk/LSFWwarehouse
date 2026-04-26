@@ -63,6 +63,17 @@ let links: NavBarLink[] = navBarConfig.links.map(
 
 <script>
 function switchTheme() {
+
+      // 1. 定义 Props 接口
+    // `[key: string]: any` 的意思是：允许接收任何名字的属性，类型任意
+    export interface Props {
+    [key: string]: any;
+    }
+
+    // 2. 你的原有逻辑保持不变
+    let isDark = false;
+
+
     if (localStorage.theme === 'dark') {
         document.documentElement.classList.remove('dark');
         localStorage.theme = 'light';
