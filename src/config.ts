@@ -53,7 +53,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/DMTX.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "assets/images/123456789.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "冷霜枫晚",
 	bio: "为天地立心，为生民立命，为往圣继绝学，为万世开太平！",
 	links: [
